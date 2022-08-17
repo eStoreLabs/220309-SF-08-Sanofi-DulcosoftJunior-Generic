@@ -110,6 +110,28 @@ html {
     box-shadow: 0 0 0 rgba(185, 230, 229, 0);
   }
 }
+@-webkit-keyframes es-pulse4 {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes es-pulse4 {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 @-webkit-keyframes shadow {
   0% {
     opacity: 0;
@@ -341,6 +363,8 @@ html {
   max-width: 100%;
   width: 700px;
   margin-bottom: 20px;
+  -webkit-animation: es-pulse4 2s infinite;
+          animation: es-pulse4 2s infinite;
 }
 .es-effects__singleText {
   min-width: 200px;

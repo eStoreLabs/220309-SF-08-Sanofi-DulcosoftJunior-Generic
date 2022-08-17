@@ -94,6 +94,18 @@ html {
         box-shadow: 0 0 0 rgb(185, 230, 229, 0);
       }
     }
+
+    @keyframes es-pulse4 {
+      0% {
+          transform: scale(1);
+        }
+        70% {
+          transform: scale(1.05);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
 @keyframes shadow {
 	0% {
     opacity: 0;
@@ -295,12 +307,11 @@ background: linear-gradient(53deg, rgba(0,99,117,1) 0%, rgba(154,207,199,1) 81%)
     margin-top: -50px;
   }
   &__img{
-    animation: es-pulse 2s infinite;
     img{
       max-width: 100%;
       width: 700px;
       margin-bottom: 20px;
-      
+      animation: es-pulse4 2s infinite;
     }
   }
   &__singleText{

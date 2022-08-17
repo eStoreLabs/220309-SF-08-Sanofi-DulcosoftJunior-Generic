@@ -295,11 +295,12 @@ background: linear-gradient(53deg, rgba(0,99,117,1) 0%, rgba(154,207,199,1) 81%)
     margin-top: -50px;
   }
   &__img{
+    animation: es-pulse 2s infinite;
     img{
       max-width: 100%;
       width: 700px;
       margin-bottom: 20px;
-      animation: es-pulse 2s infinite;
+      
     }
   }
   &__singleText{

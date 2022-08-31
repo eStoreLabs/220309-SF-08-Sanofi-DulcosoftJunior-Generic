@@ -192,8 +192,7 @@ html {
   color: #fff;
   background-color: #fff;
 }
-
-.es-kv {
+.es-dulcosoftJunior .es-kv, #es-dulcosoftJunior .es-kv {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -202,22 +201,22 @@ html {
   background: linear-gradient(53deg, rgb(0, 99, 117) 0%, rgb(154, 207, 199) 81%);
   position: relative;
 }
-.es-kv__content {
+.es-dulcosoftJunior .es-kv__content, #es-dulcosoftJunior .es-kv__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 40%;
 }
-.es-kv__title {
+.es-dulcosoftJunior .es-kv__title, #es-dulcosoftJunior .es-kv__title {
   max-width: 100%;
   padding: 40px;
 }
-.es-kv__contentProduct {
+.es-dulcosoftJunior .es-kv__contentProduct, #es-dulcosoftJunior .es-kv__contentProduct {
   position: relative;
   margin-bottom: -60px;
 }
-.es-kv__contentProduct:before {
+.es-dulcosoftJunior .es-kv__contentProduct:before, #es-dulcosoftJunior .es-kv__contentProduct:before {
   content: "WYRÓB MEDYCZNY";
   display: block;
   position: absolute;
@@ -230,11 +229,11 @@ html {
   font-family: "GothamNarrow-Medium";
   padding: 5px;
 }
-.es-kv__packshot {
+.es-dulcosoftJunior .es-kv__packshot, #es-dulcosoftJunior .es-kv__packshot {
   max-width: 100%;
   width: 200px;
 }
-.es-kv__badge {
+.es-dulcosoftJunior .es-kv__badge, #es-dulcosoftJunior .es-kv__badge {
   position: absolute;
   right: -70px;
   top: 28%;
@@ -242,23 +241,22 @@ html {
   -webkit-animation: es-pulse 2s infinite;
           animation: es-pulse 2s infinite;
 }
-.es-kv__img {
+.es-dulcosoftJunior .es-kv__img, #es-dulcosoftJunior .es-kv__img {
   display: flex;
   justify-content: flex-end;
 }
-.es-kv__img img {
+.es-dulcosoftJunior .es-kv__img img, #es-dulcosoftJunior .es-kv__img img {
   max-width: 100%;
   width: 500px;
   margin-right: 0px;
 }
-.es-kv__logo {
+.es-dulcosoftJunior .es-kv__logo, #es-dulcosoftJunior .es-kv__logo {
   width: 200px;
   position: absolute;
   right: 20px;
   top: 0;
 }
-
-.es-section__title {
+.es-dulcosoftJunior .es-section__title, #es-dulcosoftJunior .es-section__title {
   margin: 40px 0;
   color: #156775;
   font-family: "Hackney", sans-serif;
@@ -267,48 +265,46 @@ html {
   font-size: 70px;
   padding: 10px;
 }
-.es-section__title--smaller {
+.es-dulcosoftJunior .es-section__title--smaller, #es-dulcosoftJunior .es-section__title--smaller {
   font-size: 60px;
 }
-
-.es-cause {
+.es-dulcosoftJunior .es-cause, #es-dulcosoftJunior .es-cause {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
-.es-cause__icons {
+.es-dulcosoftJunior .es-cause__icons, #es-dulcosoftJunior .es-cause__icons {
   display: flex;
   flex-direction: column;
 }
-.es-cause__single {
+.es-dulcosoftJunior .es-cause__single, #es-dulcosoftJunior .es-cause__single {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 150px;
 }
-.es-cause__text {
+.es-dulcosoftJunior .es-cause__text, #es-dulcosoftJunior .es-cause__text {
   color: #3d8a97;
   font-size: 18px;
   text-align: center;
 }
-.es-cause__iconImg {
+.es-dulcosoftJunior .es-cause__iconImg, #es-dulcosoftJunior .es-cause__iconImg {
   -webkit-animation: es-pulse 2s infinite;
           animation: es-pulse 2s infinite;
 }
-.es-cause__kidsIcon {
+.es-dulcosoftJunior .es-cause__kidsIcon, #es-dulcosoftJunior .es-cause__kidsIcon {
   padding: 50px;
   max-width: 100%;
   width: 350px;
 }
-
-.es-desc {
+.es-dulcosoftJunior .es-desc, #es-dulcosoftJunior .es-desc {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.es-desc__single {
+.es-dulcosoftJunior .es-desc__single, #es-dulcosoftJunior .es-desc__single {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -317,20 +313,19 @@ html {
   min-width: 200px;
   min-height: 280px;
 }
-.es-desc__icon {
+.es-dulcosoftJunior .es-desc__icon, #es-dulcosoftJunior .es-desc__icon {
   max-width: 100%;
   width: 150px;
   margin-bottom: 20px;
   -webkit-animation: es-pulse2 2s infinite;
           animation: es-pulse2 2s infinite;
 }
-.es-desc__text {
+.es-dulcosoftJunior .es-desc__text, #es-dulcosoftJunior .es-desc__text {
   color: #3d8a97;
   font-size: 18px;
   text-align: center;
 }
-
-.es-effects {
+.es-dulcosoftJunior .es-effects, #es-dulcosoftJunior .es-effects {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -338,7 +333,7 @@ html {
   background: rgb(0, 99, 117);
   background: linear-gradient(53deg, rgb(0, 99, 117) 0%, rgb(154, 207, 199) 81%);
 }
-.es-effects__title {
+.es-dulcosoftJunior .es-effects__title, #es-dulcosoftJunior .es-effects__title {
   margin: 20px 0;
   color: #fff;
   font-family: "Hackney", sans-serif;
@@ -346,50 +341,49 @@ html {
   text-align: center;
   font-size: 70px;
 }
-.es-effects__container {
+.es-dulcosoftJunior .es-effects__container, #es-dulcosoftJunior .es-effects__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-effects__textCtn {
+.es-dulcosoftJunior .es-effects__textCtn, #es-dulcosoftJunior .es-effects__textCtn {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: -50px;
 }
-.es-effects__img img {
+.es-dulcosoftJunior .es-effects__img img, #es-dulcosoftJunior .es-effects__img img {
   max-width: 100%;
   width: 700px;
   margin-bottom: 20px;
   -webkit-animation: es-pulse4 2s infinite;
           animation: es-pulse4 2s infinite;
 }
-.es-effects__singleText {
+.es-dulcosoftJunior .es-effects__singleText, #es-dulcosoftJunior .es-effects__singleText {
   min-width: 200px;
 }
-.es-effects__text {
+.es-dulcosoftJunior .es-effects__text, #es-dulcosoftJunior .es-effects__text {
   font-size: 20px;
   text-align: center;
 }
-.es-effects__footerText {
+.es-dulcosoftJunior .es-effects__footerText, #es-dulcosoftJunior .es-effects__footerText {
   text-align: center;
   font-size: 20px;
   margin-bottom: 20px;
   padding: 10px;
 }
-
-.es-characteristic {
+.es-dulcosoftJunior .es-characteristic, #es-dulcosoftJunior .es-characteristic {
   width: 100%;
 }
-.es-characteristic__mainCtn {
+.es-dulcosoftJunior .es-characteristic__mainCtn, #es-dulcosoftJunior .es-characteristic__mainCtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-characteristic__Btn {
+.es-dulcosoftJunior .es-characteristic__Btn, #es-dulcosoftJunior .es-characteristic__Btn {
   margin: 40px;
   max-width: 90%;
   width: 500px;
@@ -405,48 +399,48 @@ html {
   -webkit-animation: es-pulse3 2s infinite;
           animation: es-pulse3 2s infinite;
 }
-.es-characteristic__Btn:hover {
+.es-dulcosoftJunior .es-characteristic__Btn:hover, #es-dulcosoftJunior .es-characteristic__Btn:hover {
   outline: 4px solid #3d8a97;
   color: #3d8a97;
   background-color: #fff;
   background: linear-gradient(53deg, rgba(0, 99, 117, 0) 0%, rgba(154, 207, 199, 0) 81%);
 }
-.es-characteristic__toggleContainer {
+.es-dulcosoftJunior .es-characteristic__toggleContainer, #es-dulcosoftJunior .es-characteristic__toggleContainer {
   display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.es-characteristic__activeContainer {
+.es-dulcosoftJunior .es-characteristic__activeContainer, #es-dulcosoftJunior .es-characteristic__activeContainer {
   display: flex;
   -webkit-animation: es-showContent 2s forwards;
           animation: es-showContent 2s forwards;
 }
-.es-characteristic__activeBtn {
+.es-dulcosoftJunior .es-characteristic__activeBtn, #es-dulcosoftJunior .es-characteristic__activeBtn {
   outline: 4px solid #3d8a97;
   color: #3d8a97;
   background-color: #fff;
   background: linear-gradient(53deg, rgba(0, 99, 117, 0) 0%, rgba(154, 207, 199, 0) 81%);
 }
-.es-characteristic__textCtn {
+.es-dulcosoftJunior .es-characteristic__textCtn, #es-dulcosoftJunior .es-characteristic__textCtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
-.es-characteristic__text {
+.es-dulcosoftJunior .es-characteristic__text, #es-dulcosoftJunior .es-characteristic__text {
   color: #3d8a97;
   font-size: 18px;
 }
-.es-characteristic__iconsCtn {
+.es-dulcosoftJunior .es-characteristic__iconsCtn, #es-dulcosoftJunior .es-characteristic__iconsCtn {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.es-characteristic__iconSingle {
+.es-dulcosoftJunior .es-characteristic__iconSingle, #es-dulcosoftJunior .es-characteristic__iconSingle {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -454,25 +448,24 @@ html {
   min-width: 250px;
   min-height: 200px;
 }
-.es-characteristic__iconSingle img {
+.es-dulcosoftJunior .es-characteristic__iconSingle img, #es-dulcosoftJunior .es-characteristic__iconSingle img {
   max-width: 100%;
   width: 120px;
   -webkit-animation: es-pulse2 2s infinite;
           animation: es-pulse2 2s infinite;
 }
-.es-characteristic__iconSingle p {
+.es-dulcosoftJunior .es-characteristic__iconSingle p, #es-dulcosoftJunior .es-characteristic__iconSingle p {
   color: #3d8a97;
   font-size: 16px;
   text-align: center;
 }
-
-.es-when {
+.es-dulcosoftJunior .es-when, #es-dulcosoftJunior .es-when {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.es-when__singleCtn {
+.es-dulcosoftJunior .es-when__singleCtn, #es-dulcosoftJunior .es-when__singleCtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -481,42 +474,41 @@ html {
   font-size: 16px;
   text-align: center;
 }
-.es-when__singleCtn--icons {
+.es-dulcosoftJunior .es-when__singleCtn--icons, #es-dulcosoftJunior .es-when__singleCtn--icons {
   margin-bottom: -150px;
   margin-right: -20px;
   z-index: 10;
 }
-.es-when__singleCtn--icons img {
+.es-dulcosoftJunior .es-when__singleCtn--icons img, #es-dulcosoftJunior .es-when__singleCtn--icons img {
   width: 100px;
   margin: 5px;
   -webkit-animation: es-pulse 2s infinite;
           animation: es-pulse 2s infinite;
 }
-.es-when__singleCtn--iconsText {
+.es-dulcosoftJunior .es-when__singleCtn--iconsText, #es-dulcosoftJunior .es-when__singleCtn--iconsText {
   margin: 50px;
 }
-.es-when__singleCtn--iconsText img {
+.es-dulcosoftJunior .es-when__singleCtn--iconsText img, #es-dulcosoftJunior .es-when__singleCtn--iconsText img {
   width: 150px;
 }
-.es-when__packshot {
+.es-dulcosoftJunior .es-when__packshot, #es-dulcosoftJunior .es-when__packshot {
   max-width: 100%;
   width: 350px;
 }
-
-.es-ingr {
+.es-dulcosoftJunior .es-ingr, #es-dulcosoftJunior .es-ingr {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.es-ingr__mainCtn {
+.es-dulcosoftJunior .es-ingr__mainCtn, #es-dulcosoftJunior .es-ingr__mainCtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-ingr__Btn {
+.es-dulcosoftJunior .es-ingr__Btn, #es-dulcosoftJunior .es-ingr__Btn {
   margin: 40px;
   max-width: 90%;
   width: 500px;
@@ -532,44 +524,43 @@ html {
   -webkit-animation: es-pulse3 2s infinite;
           animation: es-pulse3 2s infinite;
 }
-.es-ingr__Btn:hover {
+.es-dulcosoftJunior .es-ingr__Btn:hover, #es-dulcosoftJunior .es-ingr__Btn:hover {
   outline: 4px solid #3d8a97;
   color: #3d8a97;
   background-color: #fff;
   background: linear-gradient(53deg, rgba(0, 99, 117, 0) 0%, rgba(154, 207, 199, 0) 81%);
 }
-.es-ingr__toggleContainer {
+.es-dulcosoftJunior .es-ingr__toggleContainer, #es-dulcosoftJunior .es-ingr__toggleContainer {
   display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.es-ingr__activeContainer {
+.es-dulcosoftJunior .es-ingr__activeContainer, #es-dulcosoftJunior .es-ingr__activeContainer {
   display: flex;
   -webkit-animation: es-showContent 2s forwards;
           animation: es-showContent 2s forwards;
 }
-.es-ingr__activeBtn {
+.es-dulcosoftJunior .es-ingr__activeBtn, #es-dulcosoftJunior .es-ingr__activeBtn {
   outline: 4px solid #3d8a97;
   color: #3d8a97;
   background-color: #fff;
   background: linear-gradient(53deg, rgba(0, 99, 117, 0) 0%, rgba(154, 207, 199, 0) 81%);
 }
-.es-ingr__textCtn {
+.es-dulcosoftJunior .es-ingr__textCtn, #es-dulcosoftJunior .es-ingr__textCtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
-.es-ingr__text {
+.es-dulcosoftJunior .es-ingr__text, #es-dulcosoftJunior .es-ingr__text {
   color: #3d8a97;
   font-size: 18px;
   text-align: center;
 }
-
-.es-video {
+.es-dulcosoftJunior .es-video, #es-dulcosoftJunior .es-video {
   max-width: 960px;
   min-width: 320px;
   margin: 0 auto;
@@ -577,31 +568,30 @@ html {
   flex-direction: column;
   align-items: flex-end;
 }
-.es-video__videoCnt {
+.es-dulcosoftJunior .es-video__videoCnt, #es-dulcosoftJunior .es-video__videoCnt {
   width: 72%;
   margin: 0 auto;
   padding: 40px 0;
 }
-.es-video__iframe {
+.es-dulcosoftJunior .es-video__iframe, #es-dulcosoftJunior .es-video__iframe {
   width: 100%;
   min-height: 450px;
   z-index: 1;
 }
-
-.es-doze {
+.es-dulcosoftJunior .es-doze, #es-dulcosoftJunior .es-doze {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.es-doze__mainCtn {
+.es-dulcosoftJunior .es-doze__mainCtn, #es-dulcosoftJunior .es-doze__mainCtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-doze__Btn {
+.es-dulcosoftJunior .es-doze__Btn, #es-dulcosoftJunior .es-doze__Btn {
   margin: 40px;
   max-width: 90%;
   width: 500px;
@@ -617,50 +607,50 @@ html {
   -webkit-animation: es-pulse3 2s infinite;
           animation: es-pulse3 2s infinite;
 }
-.es-doze__Btn:hover {
+.es-dulcosoftJunior .es-doze__Btn:hover, #es-dulcosoftJunior .es-doze__Btn:hover {
   outline: 4px solid #3d8a97;
   color: #3d8a97;
   background-color: #fff;
   background: linear-gradient(53deg, rgba(0, 99, 117, 0) 0%, rgba(154, 207, 199, 0) 81%);
 }
-.es-doze__toggleContainer {
+.es-dulcosoftJunior .es-doze__toggleContainer, #es-dulcosoftJunior .es-doze__toggleContainer {
   display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.es-doze__activeContainer {
+.es-dulcosoftJunior .es-doze__activeContainer, #es-dulcosoftJunior .es-doze__activeContainer {
   display: flex;
   -webkit-animation: es-showContent 2s forwards;
           animation: es-showContent 2s forwards;
 }
-.es-doze__activeBtn {
+.es-dulcosoftJunior .es-doze__activeBtn, #es-dulcosoftJunior .es-doze__activeBtn {
   outline: 4px solid #3d8a97;
   color: #3d8a97;
   background-color: #fff;
   background: linear-gradient(53deg, rgba(0, 99, 117, 0) 0%, rgba(154, 207, 199, 0) 81%);
 }
-.es-doze__textCtn {
+.es-dulcosoftJunior .es-doze__textCtn, #es-dulcosoftJunior .es-doze__textCtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
-.es-doze__text {
+.es-dulcosoftJunior .es-doze__text, #es-dulcosoftJunior .es-doze__text {
   color: #3d8a97;
   font-size: 18px;
   text-align: center;
 }
-.es-doze__textCtnBox {
+.es-dulcosoftJunior .es-doze__textCtnBox, #es-dulcosoftJunior .es-doze__textCtnBox {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-doze__textSingle {
+.es-dulcosoftJunior .es-doze__textSingle, #es-dulcosoftJunior .es-doze__textSingle {
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -668,15 +658,14 @@ html {
   border-bottom: 3px solid #3d8a97;
   margin: 5px;
 }
-.es-doze__textSingle p {
+.es-dulcosoftJunior .es-doze__textSingle p, #es-dulcosoftJunior .es-doze__textSingle p {
   color: #3d8a97;
   font-size: 16px;
   font-weight: bold;
   margin: 5px;
   padding: 0;
 }
-
-.es-cross {
+.es-dulcosoftJunior .es-cross, #es-dulcosoftJunior .es-cross {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -684,7 +673,7 @@ html {
   background: rgb(0, 99, 117);
   background: linear-gradient(53deg, rgb(0, 99, 117) 0%, rgb(154, 207, 199) 81%);
 }
-.es-cross__title {
+.es-dulcosoftJunior .es-cross__title, #es-dulcosoftJunior .es-cross__title {
   margin: 20px 0;
   color: #fff;
   font-family: "Hackney", sans-serif;
@@ -692,10 +681,10 @@ html {
   text-align: center;
   font-size: 70px;
 }
-.es-cross__title--text {
+.es-dulcosoftJunior .es-cross__title--text, #es-dulcosoftJunior .es-cross__title--text {
   position: relative;
 }
-.es-cross__title--text:after {
+.es-dulcosoftJunior .es-cross__title--text:after, #es-dulcosoftJunior .es-cross__title--text:after {
   content: "wyroby medyczne";
   font-size: 14px;
   font-family: "GothamNarrow-Medium";
@@ -704,38 +693,38 @@ html {
   bottom: -15px;
   right: 15%;
 }
-.es-cross__products {
+.es-dulcosoftJunior .es-cross__products, #es-dulcosoftJunior .es-cross__products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.es-cross__single {
+.es-dulcosoftJunior .es-cross__single, #es-dulcosoftJunior .es-cross__single {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10px 50px;
 }
-.es-cross__packshot img {
+.es-dulcosoftJunior .es-cross__packshot img, #es-dulcosoftJunior .es-cross__packshot img {
   max-width: 100%;
   width: 150px;
 }
-.es-cross__productText {
+.es-dulcosoftJunior .es-cross__productText, #es-dulcosoftJunior .es-cross__productText {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-cross__productTitle {
+.es-dulcosoftJunior .es-cross__productTitle, #es-dulcosoftJunior .es-cross__productTitle {
   margin: 0;
   margin-top: 20px;
 }
-.es-cross__desc {
+.es-dulcosoftJunior .es-cross__desc, #es-dulcosoftJunior .es-cross__desc {
   font-size: 16px;
   margin: 0;
 }
-.es-cross__link {
+.es-dulcosoftJunior .es-cross__link, #es-dulcosoftJunior .es-cross__link {
   background-color: #fff;
   text-decoration: none;
   border-radius: 20px;
@@ -747,13 +736,12 @@ html {
   -webkit-animation: es-pulse3 2s infinite;
           animation: es-pulse3 2s infinite;
 }
-.es-cross__link:hover {
+.es-dulcosoftJunior .es-cross__link:hover, #es-dulcosoftJunior .es-cross__link:hover {
   background-color: transparent;
   outline: 3px solid #fff;
   color: #fff;
 }
-
-.es-footer {
+.es-dulcosoftJunior .es-footer, #es-dulcosoftJunior .es-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -761,38 +749,38 @@ html {
   margin-top: 50px;
   padding: 50px;
 }
-.es-footer__container {
+.es-dulcosoftJunior .es-footer__container, #es-dulcosoftJunior .es-footer__container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.es-footer__single {
+.es-dulcosoftJunior .es-footer__single, #es-dulcosoftJunior .es-footer__single {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   max-width: 600px;
 }
-.es-footer__single--right {
+.es-dulcosoftJunior .es-footer__single--right, #es-dulcosoftJunior .es-footer__single--right {
   align-items: flex-end;
 }
-.es-footer__claim {
+.es-dulcosoftJunior .es-footer__claim, #es-dulcosoftJunior .es-footer__claim {
   font-size: 12px;
   margin: 0;
   opacity: 0.8;
 }
-.es-footer__info {
+.es-dulcosoftJunior .es-footer__info, #es-dulcosoftJunior .es-footer__info {
   font-size: 13px;
   opacity: 0.8;
   margin: 0;
 }
-.es-footer__logoSanofi {
+.es-dulcosoftJunior .es-footer__logoSanofi, #es-dulcosoftJunior .es-footer__logoSanofi {
   max-width: 100%;
   width: 100px;
   margin-bottom: 20px;
 }
-.es-footer__link {
+.es-dulcosoftJunior .es-footer__link, #es-dulcosoftJunior .es-footer__link {
   text-decoration: none;
   font-family: "GothamNarrow-Medium";
   font-weight: bold;
@@ -804,59 +792,58 @@ html {
   -webkit-animation: es-pulse3 2s infinite;
           animation: es-pulse3 2s infinite;
 }
-
 @media (max-width: 910px) {
-  .es-kv__contentProduct {
+  .es-dulcosoftJunior .es-kv__contentProduct, #es-dulcosoftJunior .es-kv__contentProduct {
     margin-bottom: -80px;
   }
 }
 @media (max-width: 610px) {
-  .es-kv__contentProduct:before {
+  .es-dulcosoftJunior .es-kv__contentProduct:before, #es-dulcosoftJunior .es-kv__contentProduct:before {
     bottom: -50px;
     right: 0%;
     width: 200px;
     text-align: center;
   }
-  .es-kv__content {
+  .es-dulcosoftJunior .es-kv__content, #es-dulcosoftJunior .es-kv__content {
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  .es-kv__title {
+  .es-dulcosoftJunior .es-kv__title, #es-dulcosoftJunior .es-kv__title {
     margin-top: 80px;
     width: 350px;
   }
-  .es-kv__img {
+  .es-dulcosoftJunior .es-kv__img, #es-dulcosoftJunior .es-kv__img {
     display: none;
   }
-  .es-characteristic__Btn {
+  .es-dulcosoftJunior .es-characteristic__Btn, #es-dulcosoftJunior .es-characteristic__Btn {
     width: 200px;
   }
-  .es-ingr__Btn {
+  .es-dulcosoftJunior .es-ingr__Btn, #es-dulcosoftJunior .es-ingr__Btn {
     width: 200px;
   }
-  .es-doze__Btn {
+  .es-dulcosoftJunior .es-doze__Btn, #es-dulcosoftJunior .es-doze__Btn {
     width: 200px;
   }
-  .es-when__singleCtn--icons {
+  .es-dulcosoftJunior .es-when__singleCtn--icons, #es-dulcosoftJunior .es-when__singleCtn--icons {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
   }
-  .es-section__title--smaller {
+  .es-dulcosoftJunior .es-section__title--smaller, #es-dulcosoftJunior .es-section__title--smaller {
     margin-top: 150px;
   }
-  .es-cause {
+  .es-dulcosoftJunior .es-cause, #es-dulcosoftJunior .es-cause {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .es-cause__icons--kids {
+  .es-dulcosoftJunior .es-cause__icons--kids, #es-dulcosoftJunior .es-cause__icons--kids {
     display: none;
   }
 }
 @media (max-width: 340px) {
-  .es-kv__badge {
+  .es-dulcosoftJunior .es-kv__badge, #es-dulcosoftJunior .es-kv__badge {
     right: -50px;
     top: 25%;
   }
